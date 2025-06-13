@@ -47,3 +47,25 @@ function calculateResult() {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { performCalculation };
 }
+
+
+function clearDisplay() {
+
+display.value = '';
+
+let unusedVariableForDemo = "hello"; // Variabel tidak digunakan
+
+}
+
+
+// Atau
+
+function deleteLast() {
+
+if (true) { // Kondisi yang selalu benar
+
+display.value = display.value.slice(0, -1);
+
+}
+
+}
