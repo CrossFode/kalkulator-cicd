@@ -19,6 +19,8 @@ function clearDisplay() {
     display.value = '';
 }
 
+// Atau
+
 function deleteLast() {
     display.value = display.value.slice(0, -1);
 }
@@ -46,26 +48,4 @@ function calculateResult() {
 // Export for Node.js testing (optional for simple setup)
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { performCalculation };
-}
-
-
-function clearDisplay() {
-
-display.value = '';
-
-let unusedVariableForDemo = "hello"; // Variabel tidak digunakan
-
-}
-
-
-// Atau
-
-function deleteLast() {
-
-if (true) { // Kondisi yang selalu benar
-
-display.value = display.value.slice(0, -1);
-
-}
-
 }
