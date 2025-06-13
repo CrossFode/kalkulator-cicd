@@ -110,4 +110,4 @@ jobs:
           # publish_branch: gh-pages # Default branch tujuan adalah gh-pages
           # user_name: 'github-actions[bot]'
           # user_email: 'github-actions[bot]@users.noreply.github.com'
-          # commit_message: 'Deploy kalkulator ke GitHub Pages'
+          # commit_message: 'Deploy kalkulator ke GitHub Page'
