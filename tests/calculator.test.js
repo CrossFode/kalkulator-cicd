@@ -30,7 +30,8 @@ function assertEqual(actual, expected, message) {
 
 console.log("--- Memulai Tes Unit Kalkulator ---");
 
-assertEqual(performCalculation("2+2"), 4, "Penjumlahan: 2+2 = 4");
+// assertEqual(performCalculation("2+2"), 4, "Penjumlahan: 2+2 = 4");
+assert(testPerformCalculation("2+2") === 5, "Tes Penjumlahan: 2+2 seharusnya 5 (sengaja disalahkan)");
 assertEqual(performCalculation("5-3"), 2, "Pengurangan: 5-3 = 2");
 assertEqual(performCalculation("4*3"), 12, "Perkalian: 4*3 = 12");
 assertEqual(performCalculation("10/2"), 5, "Pembagian: 10/2 = 5");
